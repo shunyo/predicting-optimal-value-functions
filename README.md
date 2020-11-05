@@ -7,6 +7,7 @@ Two different files are given: gridworld.py and gridworld_predict.py
 Running gridworld.py with different living reward weights and terminal reward weights shows the optimal policy and optimal value functions 
 
 ![Optimal policy and optimal value function using living reward weight=-0.02](figures/living_reward_0.02.png)
+*Optimal policy and optimal value function using living reward weight=-0.02*
 
 For calculating the prediction using Gaussian process and seeing the difference with actual, we run gridworld_predict.py
 
@@ -16,3 +17,4 @@ For terminal reward weights, the reward and value functions are scaled to 1.
 
 
 ![Predicted and actual value functions for evaluation living reward weight=-0.23](figures/living_reward_predict_0.23.png)
+*Predicted and actual value functions for evaluation living reward weight=-0.23*
